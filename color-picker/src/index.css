@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  color: red;
+  color: greenyellow;
   background-color: black;
   font-family: monospace, sans-serif;
   min-height: 100%;
@@ -25,9 +25,16 @@ body {
   justify-content: center;
   align-items: center;
   gap: 20px;
+  flex-wrap: wrap;
 }
 
 .title-container > img {
   height: 50px;
   width: 50px;
+}
+
+@media (max-width: 640px) {
+  .color-display {
+    padding: 20px;
+  }
 }

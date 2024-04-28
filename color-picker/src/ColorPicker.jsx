@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import dancingCatGif from "./assets/cat.gif";
 import hmmCatGif from "./assets/yes.gif";
-import reactLogo from "./assets/react.svg";
+import reactLogo from "../public/react.svg";
 
 function ColorPicker() {
     const [color, setColor] = useState("#FFFFFF");
